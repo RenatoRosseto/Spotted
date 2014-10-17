@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Criando Conta</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+
+</head>
+
+<body>
+<div id="interface"> 
+	
+	<header id="cabecalho">
+		<h1>Criar uma conta</h1>
+	</header>
+		<FORM method="POST" action="?=save" name="meuForm">
+
+				Nome: 		<INPUT type=TEXT name=CAMPO_NOME> 				
+				<BR>E-mail: <INPUT type=TEXT name=CAMPO_EMAIL>
+				<BR>TIA:  	<INPUT type=TEXT name=CAMPO_TIA>
+				<BR>Criar senha:  		    <INPUT type=TEXT name=CAMPO_SENHA>
+				<BR>Redigitar a senha:  	<INPUT type=TEXT name=CAMPO_SENHA2>
+
+				<BR>Sexo:  <INPUT type=RADIO name=CAMPO_SEXO value="M">Masculino
+						   <INPUT type=RADIO name=CAMPO_SEXO value="F">Feminino
+						   
+				<BR>ELO:  <INPUT type=RADIO name=CAMPO_ELO value="D1">Desafiante
+						  <INPUT type=RADIO name=CAMPO_ELO value="D2">Diamente
+						  <INPUT type=RADIO name=CAMPO_ELO value="P1">Platina
+						  <INPUT type=RADIO name=CAMPO_ELO value="O">Ouro
+						  <INPUT type=RADIO name=CAMPO_ELO value="P2">Prata
+						  <INPUT type=RADIO name=CAMPO_ELO value="B">Bronze
+						   
+				<BR>Curso: <SELECT name=CAMPO_CURSO>
+								<OPTION selected>Selecione seu curso</OPTION>
+								<OPTION>Ciência da Computação</OPTION>
+								<OPTION>Sistemas de informação</OPTION>
+								<OPTION>Outros..</OPTION>
+							</SELECT>				
+							
+				<BR>data nascimento: <SELECT name=CAMPO_DIANASC>
+								<OPTION selected>dia</OPTION>
+								<OPTION>1</OPTION>
+								<OPTION>2</OPTION>
+								<OPTION>3</OPTION>
+								<OPTION>4</OPTION>
+								<OPTION>5</OPTION>
+								<OPTION>6</OPTION>
+								<OPTION>7</OPTION>
+								<OPTION>8</OPTION>
+								<OPTION>9</OPTION>
+								<OPTION>10</OPTION>
+								<OPTION>11</OPTION>
+								<OPTION>12</OPTION>
+								<OPTION>13</OPTION>
+								<OPTION>14</OPTION>
+								<OPTION>15</OPTION>
+								<OPTION>16</OPTION>
+								<OPTION>17</OPTION>
+								<OPTION>18</OPTION>
+								<OPTION>19</OPTION>
+								<OPTION>20</OPTION>
+								<OPTION>21</OPTION>
+								<OPTION>22</OPTION>
+								<OPTION>23</OPTION>
+								<OPTION>24</OPTION>
+								<OPTION>25</OPTION>
+								<OPTION>26</OPTION>
+								<OPTION>27</OPTION>
+								<OPTION>28</OPTION>
+								<OPTION>29</OPTION>
+								<OPTION>30</OPTION>
+								<OPTION>31</OPTION>
+							</SELECT>
+				<BR>data nascimento: <SELECT name=CAMPO_MESNASC>
+								<OPTION selected>mês</OPTION>
+								<OPTION>JANEIRO</OPTION>
+								<OPTION>FEVEREIRO</OPTION>
+								<OPTION>MARÇO</OPTION>
+								<OPTION>ABRIL</OPTION>
+								<OPTION>MAIO</OPTION>
+								<OPTION>JUNHO</OPTION>
+								<OPTION>JULHO</OPTION>
+								<OPTION>AGOSTO</OPTION>
+								<OPTION>SETEMBRO</OPTION>
+								<OPTION>OUTUBRO</OPTION>
+								<OPTION>NOVEMBRO</OPTION>
+								<OPTION>DEZEMBRO</OPTION>
+							</SELECT>
+							
+				<BR>data nascimento: <SELECT name=CAMPO_ANONASC>
+								<OPTION selected>ano</OPTION>
+								<OPTION>2000</OPTION>
+								<OPTION>1999</OPTION>
+								<OPTION>1998</OPTION>
+								<OPTION>1997</OPTION>
+								<OPTION>1996</OPTION>
+								<OPTION>1995</OPTION>
+								<OPTION>1994</OPTION>
+								<OPTION>1993</OPTION>
+								<OPTION>1992</OPTION>
+								<OPTION>1991</OPTION>
+								<OPTION>1990</OPTION>
+							</SELECT>
+							
+				<BR>Main lane:
+				<INPUT type=CHECKBOX name=CAMPO_CONHECIMENTOS[] value="TOP">TOP
+				<INPUT type=CHECKBOX name=CAMPO_CONHECIMENTOS[] value="JUNGLE">JUNGLE
+				<INPUT type=CHECKBOX name=CAMPO_CONHECIMENTOS[] value="MID">MID
+				<INPUT type=CHECKBOX name=CAMPO_CONHECIMENTOS[] value="ADC">ADC
+				<INPUT type=CHECKBOX name=CAMPO_CONHECIMENTOS[] value="SUP">SUP
+
+				<BR>				
+				<INPUT type=SUBMIT value="Criar conta">
+		</FORM>		
+		<a href="home.html" 	 target="_self">Criar Conta</a>
+	
+</div>
+
+</body>
+</html>
