@@ -1,7 +1,7 @@
-Spotted
+LoL Mackenzie
 =======
 
-Versão web baseada no aplicativo "Spotted App Mackenzie", posts sobre pessoas 
+Rede social do jogo League of Legends voltado para o Mackenzie. Compartilhamento de jogos, profile dos jogadores por curso, eventos, noticias. 
 
 
 * Bruno Rendeiro
