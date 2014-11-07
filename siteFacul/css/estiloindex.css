@@ -34,7 +34,7 @@ header#cabecalho  entrar {
 
 header#cabecalho aside#ladoDireito {
 	position: absolute; /* absolute->site todo // relative->dentro do container */
-	left: 780px;
+	left: 780px; 
 	top: 0px;
 }
 
